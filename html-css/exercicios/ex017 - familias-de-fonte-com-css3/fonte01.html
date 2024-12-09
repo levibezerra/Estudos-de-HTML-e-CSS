@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in (polegada), px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente é = 1em
+            */
+            font-size: 1em;
+            /*lighter normal bold bolder*/
+        }
+
+        h1{
+            /*shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto fugit odit nemo esse aspernatur ea unde, tempora tempore hic facilis quis officia velit consequatur, molestias omnis doloribus dolores magni sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci debitis sunt aspernatur voluptatum? Eaque accusantium quae voluptates quasi, consequatur quis tempora placeat fugit distinctio et! Amet voluptas rem laboriosam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quod, a ipsa fugit vel ipsum maxime sed ducimus qui iusto est repellendus, suscipit voluptatum, nemo labore quia corporis dolor! Mollitia!</p>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa voluptatem saepe est autem provident repellendus alias, perspiciatis unde dolorem dignissimos veritatis sequi reprehenderit tempore vero quibusdam neque minima, explicabo quo!</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempore quas distinctio, sunt cupiditate quidem, quod repudiandae quos eos exercitationem reiciendis! At iusto qui voluptatum iste laborum, sed unde repellendus.</p>
+</body>
+</html>
