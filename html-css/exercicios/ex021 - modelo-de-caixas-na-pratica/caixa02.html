@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        article {
+            background-color: darkkhaki;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(100, 96, 44);
+        }
+
+        nav {
+            background-color: cadetblue;
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="http://">Link</a>
+            <a href="http://">Link</a>
+            <a href="http://">Link</a>
+            <a href="http://">Link</a>
+            <a href="http://">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, blanditiis quae. Quis odit quidem facilis dicta! Facilis corporis magni et laboriosam a architecto repellendus placeat quod est, numquam, excepturi minima?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci pariatur eum maiores. Tempora cupiditate in amet, odio delectus, vel aperiam quibusdam explicabo laborum neque est tenetur maxime necessitatibus adipisci?</p>
+                <aside>
+                    <p>Nome da pessoa que escreveu o artigo</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
