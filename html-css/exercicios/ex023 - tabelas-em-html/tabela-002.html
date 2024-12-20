@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -29,7 +30,14 @@
             text-align: left;
         }
 
-        thead, tfoot {
+        tfoot {
+            background-color: rgba(0, 0, 0, 0.795);
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
             background-color: rgba(0, 0, 0, 0.795);
             color: white;
         }
