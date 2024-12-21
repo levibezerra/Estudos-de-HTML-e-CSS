@@ -4,13 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de iframe</title>
+    <style>
+        iframe {
+            height: 600px;
+            width: 600px;
+        }
+    </style>
 </head>
 <body>
     <h1>Testeando o uso de um iframe</h1>
     <p>Acessando o site do
 
-        <iframe src="https://www.ifpb.edu.br/monteiro" frameborder="0"></iframe>
+        <!--Tamanho padrão do iframe: 300x150-->
+
+        <iframe src="https://www.cursoemvideo.com" frameborder="0">
+            <a href="https://www.cursoemvideo.com" target="_blank">Curso em Vídeo</a>
+        </iframe>
         
         para estudar</p>
+
+    <p>Acessando o site do 
+
+        <iframe src="https://www.ifpb.edu.br/monteiro" frameborder="0" height="500" width="500" scolling="no"></iframe>
+    
+        para ver algumas novidades</p>
 </body>
 </html>
