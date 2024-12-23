@@ -23,7 +23,7 @@ main {
     height: 100vh;
 }
 
-section#telefone {
+#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,4 +31,12 @@ section#telefone {
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 264px;
+    height: 468px;
 }
